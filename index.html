@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Market</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <h1 class="center">Mini Market</h1>
+
+  <div class="container">
+    
+    <!-- LEFT: PRODUCTS (Vanilla JS) -->
+    <div class="products-box">
+      <h2>Products</h2>
+      <div id="products" class="grid"></div>
+    </div>
+
+    <!-- RIGHT: CART (React) -->
+    <div class="cart-box">
+      <h2>Cart</h2>
+      <div id="cart-root"></div>
+    </div>
+
+  </div>
+
+  <script type="module" src="/products.js"></script>
+  <script type="module" src="/main.jsx"></script>
+
+</body>
+</html>
